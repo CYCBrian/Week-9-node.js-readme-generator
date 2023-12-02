@@ -1,0 +1,22 @@
+{
+  "name": "week-9-nodejs-readme-generator",
+  "version": "1.0.0",
+  "description": "## Your Task",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "CYC Brian",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CYCBrian/Week-9-node.js-readme-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CYCBrian/Week-9-node.js-readme-generator/issues"
+  },
+  "homepage": "https://github.com/CYCBrian/Week-9-node.js-readme-generator#readme"
+}
