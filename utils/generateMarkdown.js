@@ -65,7 +65,6 @@ function generateMarkdown(data) {
   ## Email
   [Send me a email!](mailto:${data.Email})
 
-  ## License
   ${renderLicenseSection(data.License)}
 
 `;
