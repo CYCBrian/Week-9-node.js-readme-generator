@@ -8,7 +8,7 @@ const fs = require ("fs");
 const questions = [
     {
         type:"input",
-        name:"Project Title",
+        name:"Title",
         message:"Enter a title for your project."
     },
     {
