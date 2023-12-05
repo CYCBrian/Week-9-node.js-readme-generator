@@ -1,4 +1,4 @@
-# m [Apache-2.0](https://img.shields.io/badge/Apache-2.0-blue.svg)
+# m (https://img.shields.io/badge/Apache-2.0-blue.svg)
 
 ## Table of Contents
 * [Description](#description)
