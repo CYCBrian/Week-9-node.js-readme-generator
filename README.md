@@ -10,7 +10,7 @@
   * [License](#license)
    
   ## Description
-  This command-line application generates a README.md file based on user input using the Inquirer package.
+  This command-line application generates a README.md file based on user input using the Inquirer package. In fact, this very README is done with the application!
 
   ## Installation
   Clone this reository to your local environment  with the SSH key or download the ZIP file.
