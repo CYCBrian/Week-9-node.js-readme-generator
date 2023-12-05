@@ -2,7 +2,7 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(License) {
   if (License !== "None") {
-    return `[License](https://img.shields.io/badge/${License}-blue)`;
+    return `[${License}](https://img.shields.io/badge/${License}-blue.svg)`;
   } else {
     return "";
   }
@@ -12,7 +12,8 @@ function renderLicenseBadge(License) {
 // If there is no license, return an empty string
 function renderLicenseLink(License) {
   if (License !== "None") {
-    return `[${License}](https://choosealicense.com/licenses/${License})`;
+    return `(https://choosealicense.com/licenses/${License})`;
+    
   } else {
     return "";
   }
@@ -33,40 +34,42 @@ function renderLicenseSection(License) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.Title} ${renderLicenseBadge(data.License)}
+  const licenseBadge = renderLicenseBadge(data.License);
+  const licenseSection = renderLicenseSection(data.License);
 
-  ## Table of Contents
-  * [Description](#description)
-  * [Installation](#installation)
-  * [Usage](#usage)
-  * [Contributing](#contributing)
-  * [Testing](#testing)
-  * [Questions?](#questions?)
-  * [License](#license)
-   
-  ## Description
-  ${data.Description}
+  return `# ${data.Title} ${licenseBadge}
 
-  ## Installation
-  ${data.Installation}
+## Table of Contents
+* [Description](#description)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Contributing](#contributing)
+* [Testing](#testing)
+* [Questions?](#questions?)
+* [License](#license)
 
-  ## Usage
-  ${data.Usage}
+## Description
+${data.Description}
 
-  ## Contributing
-  ${data.Contributing}
+## Installation
+${data.Installation}
 
-  ## Testing
-  ${data.Testing}
+## Usage
+${data.Usage}
 
-  ## Questions?
-  [Visit my GitHub Profile here!](https://github.com/${data.GitHub})
+## Contributing
+${data.Contributing}
 
-  ## Email
-  [Send me a email!](mailto:${data.Email})
+## Testing
+${data.Testing}
 
-  ${renderLicenseSection(data.License)}
+## Questions?
+[Visit my GitHub Profile here!](https://github.com/${data.GitHub})
 
+## Email
+[Send me an email!](mailto:${data.Email})
+
+${licenseSection}
 `;
 }
 

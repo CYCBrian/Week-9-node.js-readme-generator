@@ -37,7 +37,7 @@ const questions = [
         message:"Enter test instructions for your project."
     },
     {
-        type:"checkbox",
+        type:"list",
         name:"License",
         message:"Select the License for your project.",
         choices: ["Apache-2.0", "GPL-3.0", "MIT", "BSD-2-Clause", "BSD-3-Clauses", "BSL-1.0", "CC0-1.0", "EPL-2.0", "AGPL-3.0", "GPL-2.0", "LGPL-2.1", "MPL-2.0", "Unlicense", "None"]
@@ -68,7 +68,8 @@ function writeToFile(fileName, data) {
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions).then((answers) => {
-      const markdown = generateMarkdown(answers); // Pass answers object instead of data
+        console.log(answers)
+      const markdown = generateMarkdown(answers);
       writeToFile("README.md", markdown);
     });
 }
