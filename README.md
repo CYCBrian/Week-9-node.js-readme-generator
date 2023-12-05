@@ -6,7 +6,7 @@
   * [Usage](#usage)
   * [Contributing](#contributing)
   * [Testing](#testing)
-  * [Questions?](#questions?)
+  * [Questions?](#questions)
   * [License](#license)
    
   ## Description
