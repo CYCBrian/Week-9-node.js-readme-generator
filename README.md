@@ -31,5 +31,6 @@ m
 [Send me an email!](mailto:m)
 
 ## License
-[The project is covered under this license:](https://choosealicense.com/licenses/Apache-2.0)
+    [The project is covered under this license:]
+    (https://choosealicense.com/licenses/Apache-2.0)
     
