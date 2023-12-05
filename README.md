@@ -1,36 +1,37 @@
-# m [Apache-2.0](https://img.shields.io/badge/Apache-2.0-blue.svg)
+# m <img src="https://img.shields.io/badge/Apache-2.0-blue.svg" alt="License Badge">
 
-## Table of Contents
-* [Description](#description)
-* [Installation](#installation)
-* [Usage](#usage)
-* [Contributing](#contributing)
-* [Testing](#testing)
-* [Questions?](#questions?)
-* [License](#license)
+  ## Table of Contents
+  * [Description](#description)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Contributing](#contributing)
+  * [Testing](#testing)
+  * [Questions?](#questions?)
+  * [License](#license)
+   
+  ## Description
+  m
 
-## Description
-m
+  ## Installation
+  m
 
-## Installation
-m
+  ## Usage
+  m
 
-## Usage
-m
+  ## Contributing
+  m
 
-## Contributing
-m
+  ## Testing
+  m
 
-## Testing
-m
+  ## Questions?
+  [Visit my GitHub Profile here!](https://github.com/m)
 
-## Questions?
-[Visit my GitHub Profile here!](https://github.com/m)
+  ## Email
+  [Send me a email!](mailto:m)
 
-## Email
-[Send me an email!](mailto:m)
-
-## License
+  ## License
     The project is covered under this license:
-    (https://choosealicense.com/licenses/Apache-2.0)
+    [Apache-2.0](https://choosealicense.com/licenses/apache-2.0)
     
+
