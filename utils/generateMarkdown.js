@@ -13,7 +13,7 @@ function renderLicenseBadge(License) {
 function renderLicenseLink(License) {
   if (License !== "None") {
     const lowercaseLicense = License.toLowerCase();
-    return `https://choosealicense.com/licenses/${lowercaseLicense}`;
+    return `(https://choosealicense.com/licenses/${lowercaseLicense})`;
   } else {
     return "";
   }
@@ -23,17 +23,11 @@ function renderLicenseLink(License) {
 // If there is no license, return an empty string
 function renderLicenseSection(License) {
   if (License !== 'None') {
-    return `## License
-    The project is covered under this license:
-
-    
-
-
-    ${renderLicenseLink(License)}
-    `;
-    } else {
-      return "";
-    }
+    return `## License\n\nThe project is covered under this license:
+    [${License}]${renderLicenseLink(License)}\n`;
+  } else {
+    return "";
+  }
 }
 
 // TODO: Create a function to generate markdown for README
