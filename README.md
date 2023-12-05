@@ -1,4 +1,4 @@
-# m <img src="https://img.shields.io/badge/Apache-2.0-blue.svg" alt="License Badge">
+# Simple Readme Generator using Node.js <img src="https://img.shields.io/badge/MIT-blue.svg" alt="License Badge">
 
   ## Table of Contents
   * [Description](#description)
@@ -10,29 +10,29 @@
   * [License](#license)
    
   ## Description
-  m
+  This command-line application generates a README.md file based on user input using the Inquirer package.
 
   ## Installation
-  m
+  Clone this reository to your local environment  with the SSH key or download the ZIP file.
 
   ## Usage
-  m
+  Start the application by running node index.js. Follow the prompts to enter information about your project. Once all information is provided, a README.md will be generated.
 
   ## Contributing
-  m
+  Contributions are welcome! Please follow the standard GitHub flow when making contributions: Fork the repository, create a new branch, make your changes, and create a pull request detailing the enhancements made.
 
   ## Testing
-  m
+  To run tests, type in npm test in the terminal. Please ensure all tests pass before submitting your contributions or changes.
 
   ## Questions?
-  [Visit my GitHub Profile here!](https://github.com/m)
+  [Visit my GitHub Profile here!](https://github.com/CYCBrian)
 
   ## Email
-  [Send me a email!](mailto:m)
+  [Send me a email!](mailto:briancheungchakyin@gmail.com)
 
   ## License
 
 The project is covered under this license:
-    [Apache-2.0](https://choosealicense.com/licenses/apache-2.0)
+    [MIT](https://choosealicense.com/licenses/mit)
 
 
