@@ -1,6 +1,5 @@
 # m <img src="https://img.shields.io/badge/Apache-2.0-blue.svg" alt="License Badge">
 
-
   ## Table of Contents
   * [Description](#description)
   * [Installation](#installation)
@@ -32,11 +31,8 @@
   [Send me a email!](mailto:m)
 
   ## License
-    The project is covered under this license:
 
-    
+The project is covered under this license:
+    [Apache-2.0](https://choosealicense.com/licenses/apache-2.0)
 
-
-    https://choosealicense.com/licenses/apache-2.0
-    
 
