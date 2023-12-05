@@ -13,7 +13,7 @@ function renderLicenseBadge(License) {
 function renderLicenseLink(License) {
   if (License !== "None") {
     const lowercaseLicense = License.toLowerCase();
-    return `[${License}](https://choosealicense.com/licenses/${lowercaseLicense})`;
+    return `https://choosealicense.com/licenses/${lowercaseLicense}`;
   } else {
     return "";
   }
@@ -25,6 +25,10 @@ function renderLicenseSection(License) {
   if (License !== 'None') {
     return `## License
     The project is covered under this license:
+
+    
+
+
     ${renderLicenseLink(License)}
     `;
     } else {
